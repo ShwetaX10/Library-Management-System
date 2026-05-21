@@ -30,3 +30,7 @@ Language: Python
 Database: MySQL
 
 Connectivity: mysql-connector-python
+
+
+### 📝 Project Execution Log
+To see a full record of the system's functionality in action, including employee and customer management workflows, view the [full execution output log here](https://github.com/ShwetaX10/Library-Management-System/blob/main/output_log.txt).
