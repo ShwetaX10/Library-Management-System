@@ -1,0 +1,189 @@
+OUTPUT
+
+<<<<<<MAIN MENU>>>>>>
+1.EMPLOYEE
+2.CUSTOMERS
+3.BOOKS
+4.ORDER DETAILS
+PRESS ANY OTHER KEY TO EXIT
+
+1. EMPLOYEE
+
+ENTER YOUR CHOICE:1
+<<<<<<EMPLOYEE>>>>>>
+1.ADD EMPLOYEE
+2.REMOVE EMPLOYEE
+3.VIEW EMPLOYEE
+4 UPDATE SALARY OR PHONE NO
+PRESS ANY OTHER KEY TO EXIT
+
+1.1 ADD EMPLOYEE
+ENTER YOUR CHOICE:1
+Please enter phone number: 9998887771
+Please Enter name: SHWETA NARAYANAN
+Please Enter address: KURAVANKONAM
+Plese Enter email: shwetha2007@gmail.com
+Plese Enter salary: 50000
+Plese Enter joining date [dd/mm/yyyy]: 08/10/2024
+
+Employee added successfully
+Returning back to MENU...
+
+ENTER YOUR CHOICE:1
+Please enter phone number: 9998887771
+
+Employee phone number ' 9998887771 ' already exist
+Enter '1' to try again
+Enter '2' to return back to menu
+Enter your choice(1/2): 2
+Returning back to MENU...
+
+1.2 REMOVE EMPLOYEE
+ENTER YOUR CHOICE:2
+Enter employee ID number: 1004
+Confirm deletion(yes/no): yes
+
+employee deleted successfully!
+Returning back to MENU...
+
+ENTER YOUR CHOICE:2
+Enter employee ID number: 1004
+Confirm deletion(yes/no): yes
+
+employee deleted successfully!
+Returning back to MENU...
+
+1.3 VIEW EMPLOYEE
+ENTER YOUR CHOICE:3
+<<<<<<EMPLOYEE LIST>>>>>>
+PH.NO        NAME        ADDRESS         EMAIL              SALARY      JOINING DATE
+9998887771   SHWETA      KURAVANKONAM    shwetha2007@       50000       08/10/2024
+             NARAYANAN                   gmail.com
+
+ENTER YOUR CHOICE:3
+<<<<<<EMPLOYEE LIST>>>>>>
+PH.NO        NAME        ADDRESS         EMAIL              SALARY      JOINING DATE
+9998887771   SHWETA      KURAVANKONAM    shwetha2007@       50000       08/10/2024
+             NARAYANAN                   gmail.com
+
+1.4 UPDATE SALARY OR PHONE NO
+ENTER YOUR CHOICE:4
+1.UPDATE SALARY
+2.UPDATE PHONE NO
+ENTER YOUR CHOICE:1
+Enter employee phone number: 9998887771
+Enter New Salary: 60000
+Salary updated successfully
+Returning back to MENU...
+
+ENTER YOUR CHOICE:4
+1.UPDATE SALARY
+2.UPDATE PHONE NO
+ENTER YOUR CHOICE:2
+Enter employee phone number: 9998887771
+Enter New Phone Number: 9946221155
+Phone Number updated successfully
+Returning back to MENU...
+
+2. CUSTOMER
+<<<<<<CUSTOMER>>>>>>
+1. ADD CUSTOMER
+2. REMOVE CUSTOMER
+3. VIEW CUSTOMER
+4. UPDATE PHONE OR ADDRESS
+PRESS ANY OTHER KEY TO EXIT
+
+2.1 ADD CUSTOMER
+
+ENTER YOUR CHOICE:1
+Please enter phone number: 9946221155
+Please Enter name: NIYA MARY JOSEPH
+Please Enter address: KOWDIAR
+Please Enter email: niyamary@gmail.com
+
+Customer added successfully
+Returning back to MENU...
+
+ENTER YOUR CHOICE:1
+Please enter phone number: 9946221155
+
+Customer phone number ' 9946221155 ' already exist
+Enter '1' to try again
+Enter '2' to return back to menu
+Enter your choice(1/2): 2
+Returning back to MENU...
+
+2.2 REMOVE CUSTOMER
+ENTER YOUR CHOICE:2
+Enter customer phone number: 9946221155
+Confirm deletion(yes/no): yes
+
+Customer deleted successfully!
+Returning back to MENU...
+
+ENTER YOUR CHOICE:2
+Enter customer phone number: 9946221155
+Confirm deletion(yes/no): yes
+
+Customer deleted successfully!
+Returning back to MENU...
+
+2.3 VIEW CUSTOMER
+ENTER YOUR CHOICE:3
+<<<<<<CUSTOMER LIST>>>>>>
+PH.NO        NAME        ADDRESS         EMAIL
+9946221155   NIYA MARY   KOWDIAR         niyamary@
+             JOSEPH                      gmail.com
+
+2.4 UPDATE PHONE OR ADDRESS
+ENTER YOUR CHOICE:4
+1. UPDATE PHONE NO
+2. UPDATE ADDRESS
+ENTER YOUR CHOICE:1
+Enter customer phone number: 9946221155
+Enter New Phone Number: 8086000000
+Phone Number updated successfully
+Returning back to MENU...
+
+ENTER YOUR CHOICE:4
+1. UPDATE PHONE NO
+2. UPDATE ADDRESS
+ENTER YOUR CHOICE:2
+Enter customer phone number: 8086000000
+Enter New Address: KAKKANAD
+update customer set c_addr = "KAKKANAD" where c_phone = 8086000000
+Updated successfully!
+Returning back to MENU...
+
+3.BOOKS <<<<<>>>>> 1.UPDATE QUANTITY 2.VIEW DETAILS OF A BOOK 3.REMOVE BOOK 4.ADD BOOK PRESS ANY OTHER KEY TO EXIT
+3.1 UPDATE QUANTITY ENTER YOUR CHOICE:1
+	1	Update Book Quantity
+	2	Update Book Price
+	3	Update both Quantity and Price
+	4	Back to Main Menu
+Enter your choice(1-4): 1 Enter the book's ISBN number: QSD1088812 Enter quantity: 6
+Updated successfully! Returning back to MENU...
+3.2 VIEW DETAILS OF A BOOK ENTER YOUR CHOICE:2 List of Books +-----------------------------------------------------------------------------------------------------------+ | ISBN | title | Category | Author | Publisher | Price | Language | Quantity | +-----------------------------------------------------------------------------------------------------------+
+|QSD1088812|The Snow |Mystery |Kooler J |Penguin |499 |ENGLISH |6 | +-----------------------------------------------------------------------------------------------------------+ |QSD1088877|Summer of 42 |Romance |Jack Kaalis |Penguin |169 |ENGLISH |50 | +-----------------------------------------------------------------------------------------------------------+ |QSD1088844|To Kill a Mockingbird|Drama |Harper Lee |Lippincott |500 |ENGLISH |100 | +-----------------------------------------------------------------------------------------------------------+
+Returning back to MENU...
+3.3 REMOVE BOOK
+ENTER YOUR CHOICE:3 Enter the book's ISBN number: QSD1088812 Confirm deletion(yes/no): YES
+Book deleted successfully! Returning back to MENU...
+3.4 ADD A BOOK ENTER YOUR CHOICE:4 Enter title of the book: ONCE UPON A TIME Please enter ISBN of the book: Q6836892 Please enter category of the book: HORROR Please enter author of the book: NIYA MARY Please enter publisher of the book: SHWETA NARAYAN Please enter price of the book: 300 Please enter lanuage of the book: FRENCH Please enter quantity of the book: 10
+Book added successfully Returning back to MENU...
+4.ORDER DETAILS <<<<<>>>>> 1.ADD ORDER 2.UPDATE ORDER DETAILS 3.REMOVE ORDER 4.VIEW ALL ORDER PRESS ANY OTHER KEY TO EXIT
+4.1 ADD ORDER ENTER YOUR CHOICE:1 Enter customer order id : 1256 Enter ISBN number: QTR487374 Enter customer ID: 4 Enter customer order date: 30-07-2024 Enter Employee ID: 120 Enter quantity : 50
+Customer added successfully Returning back to MENU...
+4.2 UPDATE ORDER
+ENTER YOUR CHOICE:2
+	1	Update Quantity
+	2	Update Employee ID
+	3	Update both Quantity and Employee ID
+	4	Back to Main Menu
+Enter your choice(1-4): 1 Enter your order id : 1256 Enter the new quantity : 70
+Order ID number updated successfully! Returning back to MENU...
+4.3 REMOVE ORDER ENTER YOUR CHOICE:3 Enter customer Order ID number: 1256 Confirm deletion(yes/no): YES
+Customer order id removed successfully! Returning back to MENU...
+4.4 VIEW ALL ORDER ENTER YOUR CHOICE:4 Orders +-----------------------------------------------------------------------------------------------------------+ | order_id| Quantity | ISBN | orderdate | cust_id | emp_id | +-----------------------------------------------------------------------------------------------------------+ |1234 |100 |QWE109877 |10/10/2023 |1 |100 | +-----------------------------------------------------------------------------------------------------------+ |1224 |200 |QSD1088877 |11/03/2023 |2 |100 | +-----------------------------------------------------------------------------------------------------------+ |1234 |340 |QSD1088812 |12/03/2023 |3 |100 | +-----------------------------------------------------------------------------------------------------------+
+Returning back to MENU...
+	5	EXITING THE PROGRAM <<<<<>>>>> 1.EMPLOYEE 2.CUSTOMERS 3.BOOKS 4.ORDER DETAILS PRESS ANY OTHER KEY TO EXIT ENTER YOUR CHOICE:7 EXITING MAIN MENU
